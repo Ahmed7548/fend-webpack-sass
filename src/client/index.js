@@ -6,8 +6,15 @@ import './styles/base.scss'
 import './styles/footer.scss'
 import './styles/form.scss'
 import './styles/header.scss'
+import img from "./styles/profile.jpg"
 
-console.log(checkForName);
+export {
+    checkForName,
+    handleSubmit
+}
 
-alert("I EXIST")
-console.log("CHANGE!!");
+// const imgElement = document.createElement("div")
+
+// imgElement.innerHTML= `<img src="${img}"/>`
+
+// document.body.appendChild(imgElement)
